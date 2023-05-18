@@ -36,11 +36,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CodePatterns = exports.ConfigureKey = exports.TranformCode = void 0;
+exports.ProgrammingLanguages = exports.CodePatterns = exports.ConfigureKey = exports.TranformCode = void 0;
 // Import OpenAI and Utils modules
 var openai_1 = require("openai");
 var EnumPatterns_1 = require("./EnumPatterns");
 Object.defineProperty(exports, "CodePatterns", { enumerable: true, get: function () { return EnumPatterns_1.CodePatterns; } });
+Object.defineProperty(exports, "ProgrammingLanguages", { enumerable: true, get: function () { return EnumPatterns_1.ProgrammingLanguages; } });
 // Initialize variables for OpenAI configuration and API
 var configuration = undefined;
 var openai = undefined;

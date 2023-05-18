@@ -66,7 +66,7 @@ async function TranformCode(InitCode: String, TargetLanguage: ProgrammingLanguag
 }
 
 
-/* This line of code is exporting the `TranformCode`, `ConfigureKey`, and `CodePatterns` functions and
-making them available for use in other modules or files. This allows other modules to import and use
-these functions in their own code. */
-export { TranformCode, ConfigureKey, CodePatterns};
+/* This line of code is exporting the functions `TranformCode` and `ConfigureKey`, as well as the enums
+`CodePatterns` and `ProgrammingLanguages` from the current module. This allows other modules to
+import and use these functions and enums. */
+export { TranformCode, ConfigureKey, CodePatterns, ProgrammingLanguages};

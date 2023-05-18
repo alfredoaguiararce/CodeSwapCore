@@ -18,4 +18,4 @@ declare function ConfigureKey(apiKey: string): void;
  * API based on the input parameters.
  */
 declare function TranformCode(InitCode: String, TargetLanguage: ProgrammingLanguages, Pattern?: CodePatterns): Promise<String>;
-export { TranformCode, ConfigureKey, CodePatterns };
+export { TranformCode, ConfigureKey, CodePatterns, ProgrammingLanguages };
