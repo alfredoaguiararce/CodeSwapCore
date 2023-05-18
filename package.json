@@ -1,0 +1,47 @@
+{
+  "name": "codeswapcore",
+  "version": "1.0.0",
+  "description": "This is a TypeScript and JavaScript-based library that utilizes the OpenAI API to convert code from one selected language to another, such as class, interface, record, etc.",
+  "main": "dist/Index.js",
+  "scripts": {
+    "js-sample": "nodemon sample.js",
+    "ts-sample": "nodemon --exec ts-node sample.ts",
+    "build": "tsc",
+    "publish": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredoaguiararce/CodeSwapCore.git"
+  },
+  "keywords": [
+    "ai",
+    "open",
+    "ai",
+    "api",
+    "api",
+    "library",
+    "swap",
+    "code",
+    "conversion",
+    "typescript"
+  ],
+  "author": "Alfredo Aguiar Arce <alfredoaguiararce@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfredoaguiararce/CodeSwapCore/issues"
+  },
+  "homepage": "https://github.com/alfredoaguiararce/CodeSwapCore#readme",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.1.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
